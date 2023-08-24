@@ -186,6 +186,14 @@ body {
   z-index: 2;
 }
 
+.hero__btn {
+  transition: background-color .2s ease-in-out;
+}
+
+.hero__btn:hover {
+  background-color: #3e72ff;
+}
+
 /* pluses */
 .pluses__img {
   background: url("../images/pluses-img.jpg") center left content-box no-repeat;
